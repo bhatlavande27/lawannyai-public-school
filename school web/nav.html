@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lawanyayi Public School</title>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+        .navbar {
+            background-color: #26355D;
+            overflow: hidden;
+            transition: background-color 0.3s ease;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+            transform: scale(1.1);
+        }
+        .navbar .school-name {
+            float: right;
+            font-size: 18px;
+            font-weight: bold;
+            color: #f2f2f2;
+            padding: 14px 20px;
+            transition: color 0.3s ease;
+        }
+        .navbar .school-name:hover {
+         
+            transform: scale(1.1);
+
+        }
+/*css for footer*/
+
+.footer-main{
+    padding-top: 10px;
+    color: #26355D;
+}
+
+.address-main > div.col-lg-4 {
+    border-bottom: dotted 1px #999;
+}
+.address-box {
+    padding: 4px 0;
+    margin-bottom: 1px;
+}
+.add-icon{
+    float: left;
+    width: 60px;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.address-box .add-icon {
+    background: #27303b;
+    height: 75px;
+    line-height: 75px;
+    width: 75px;
+    margin-right: 20px;
+    text-align: center;
+}
+.add-icon img{
+    width: 100%;
+}
+.address-box .add-icon img {
+    max-width: 40px;
+}
+ 
+
+ 
+.add-content{
+    padding-left: 70px;
+}
+.add-content h5 {
+    font-size: 17px;
+    color: #ffffff;
+    padding: 0;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.add-content p {
+    font-size: 13px;
+    color: #999999;
+    font-weight: 300;
+}
+.add-content p a{
+    font-size: 14px;
+    color: #999999;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.add-content p a:hover{
+    color: #ffb32d;
+}
+ 
+/* Image Slider*/
+.container {
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .slider {
+            position: relative;
+            max-width: 100%;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .slides {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            animation: slide 12s infinite;
+        }
+
+        .slides img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+
+        /* Optional: Add dots for navigation */
+        .dots {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .dots span {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin: 5px;
+            background-color: #bbb;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .dots span.active {
+            background-color: #717171;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+    <div class="navbar">
+        <a href="#home" target="_self">Home</a>
+        <a href="#about-us" target="_self">About Us</a>
+        <a href="#activities" target="_self">School Activities</a>
+        <a href="#feedback" target="_self">Parents Feedback Form</a>
+        <div class="school-name">𝐥𝐚𝐰𝐚𝐧𝐧𝐲𝐚𝐢 𝐏𝐮𝐛𝐥𝐢𝐜 𝐒𝐜𝐡𝐨𝐨𝐥</div>
+    </div>
+  </section>
+
+      <section> 
+
+        <!-- for image slider -->
+        <div class="container">
+        <div class="header">School Activities</div>
+        <div class="slider">
+            <div class="slides">
+                <img src="img1.jpg" alt="Activity 1">
+                <img src="img2.jpg" alt="Activity 2">
+                <img src="img3.jpg" alt="Activity 3">
+                <img src="img4.jpg" alt="Activity 4">
+            </div>
+        </div>
+        <div class="dots">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+</section>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>  </br>
+
+       <!-- FOR FOOTER HTML -->
+<section>
+<footer class="footer-main bg-dark fixed-bottom">
+  <div class="container">
+    <div class="row address-main">
+      <div class="col-lg-4 col-sm-12 col-xs-12">
+        <div class="address-box clearfix">
+          <div class="add-icon">
+            <img src=" https://img.freepik.com/premium-vector/location-icon-pointer-position-navigation-icon-vector-illustration_739746-45.jpg" alt="" />
+          </div>
+          <div class="add-content">
+            <h5>Address</h5>
+            <p> Ambeves Galli in front of Timbe hospital, Parli Vaijenath-431515</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12">
+        <div class="address-box clearfix">
+          <div class="add-icon">
+            <img src="https://icon-library.com/images/red-phone-icon-png/red-phone-icon-png-21.jpg" alt="" />
+          </div>
+          <div class="add-content">
+            <h5>Phone</h5>
+            <p>  +(91) 9028270018 <br />
+            +(91) 7020930033 </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12">
+        <div class="address-box clearfix">
+          <div class="add-icon">
+            <img src="https://cdn-icons-png.freepik.com/512/7083/7083836.png" alt="" />
+          </div>
+          <div class="add-content">
+            <h5>Email</h5>
+            <p> <a href="mailto:" style="text-decoration:none">Anantkuljarni0018@gmail.com</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+   
+
+<!-- Copyright Footer -->
+<footer class="bg-dark text-center text-white">
+
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+  <!-- Section: Social media -->
+  <section class="mb-4">
+    <!-- Facebook -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fa fa-facebook-f"></i
+    ></a>
+
+    <!-- Twitter -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fa fa-twitter"></i
+    ></a>
+
+    <!-- Google -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fa fa-google"></i
+    ></a>
+
+    <!-- Instagram -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fa fa-instagram"></i
+    ></a>
+
+  </section>
+  <!-- Section: Social media -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+bhagyashreebhatlavande@gmail.com © 2024 All Rights Reserved.
+</div>
+<!-- Copyright -->
+</footer>
+</footer>
+</section>
+
+ 
+
+
+
+ 
+</body>
+</html>
